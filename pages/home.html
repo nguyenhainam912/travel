@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelix</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="../assets/font/fontawesome-free-5.15.4-web/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="../assets/css/grid.css">
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+</head>
+<body>
+    <div class="app">
+        <!-- HEADER -->
+        <header class="header"></header>
+
+        <!-- Home -->
+        <div class="home">
+            <div class="grid">
+                <div class="row">
+                    <div class="home-background" style=" background-image: linear-gradient(rgba(64, 6, 97, 0.4), rgba(64, 6, 97, 0.4)), 
+                    url('/assets/img/slice1.webp');"></div>
+                    <div class="home-container">
+                        <div class="home-container__name">
+                            <h2 class="home-container__name-discover">discover</h2>
+                            <h2 class="home-container__name-theworld">the world</h2>
+                        </div>
+                        <div class="home-container__btn">
+                            <div class="home-container__btn--big"></div>
+                            <a href="#" class="home-container__btn-name">
+                                explore now
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </a>
+                            
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+
+        </div>
+
+        <!-- Search -->
+        <div class="search">
+            <div class="grid">
+                <div class="row">
+                    <div class="search-top"> 
+                        <div class="grid search-top__list ">
+                            <div class="row search-top__row">
+                                <div class="col l-2 m-6 c-12 search-top__col">
+                                    <div class="search-top__item active-btn">
+                                        <div class="search-top__icon">
+                                            <img src="../assets/img/hotel.webp" alt="">
+                                        </div>
+                                        <span class="search-top__name">HOTELS</span>
+                                    </div>                                                         
+                                </div>
+                                <div class="col  l-2 m-6 c-12 search-top__col">
+                                    <div class="search-top__item ">
+                                        <div class="search-top__icon">
+                                            <img src="../assets/img/car.webp" alt="">
+                                        </div>
+                                        <span class="search-top__name">CAR RENTALS</span>
+                                    </div>                                                           
+                                </div>
+                                <div class="col  l-2 m-6 c-12 search-top__col">
+                                    <div class="search-top__item">
+                                        <div class="search-top__icon">
+                                            <img src="../assets/img/fly.webp" alt="">
+                                        </div>
+                                        <span class="search-top__name">FLIGHTS</span>
+                                    </div>                                                           
+                                </div>
+                                <div class="col  l-2 m-6 c-12 search-top__col">
+                                    <div class="search-top__item">
+                                        <div class="search-top__icon">
+                                            <img src="../assets/img/trip.webp" alt="">
+                                        </div>
+                                        <span class="search-top__name">TRIPS</span>
+                                    </div>                                                         
+                                </div>
+                                <div class="col  l-2 m-6 c-12 search-top__col">
+                                    <div class="search-top__item">
+                                        <div class="search-top__icon">
+                                            <img src="../assets/img/cruises.webp" alt="">
+                                        </div>
+                                        <span class="search-top__name">CUISES</span>
+                                    </div>                                                          
+                                </div>
+                                <div class="col  l-2 m-6 c-12 search-top__col">
+                                    <div class="search-top__item ">
+                                        <div class="search-top__icon">
+                                            <img src="../assets/img/activities.webp" alt="">
+                                        </div>
+                                        <span class="search-top__name">ACTIVITIES</span>
+                                    </div>                                   
+                                </div>
+                            </div>
+                        </div>             
+                    </div>
+
+                </div>
+                <div class="row hide-on-tablet hide-on-mobile">
+                    <div class="search-main">
+                        <div class="search-main__wrap ">
+                            <div class="search-main__list">
+                                <div class="col l-4 m-0 c-0">
+                                    <div class="search-main__item">
+                                        <div class="search-main__item-name">DESTINATION</div>
+                                        <div class="search-main__item-input">
+                                            <input type="text">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-2 m-0 c-0">
+                                    <div class="search-main__item">
+                                        <div class="search-main__item-name">CHECK IN</div>
+                                        <div class="search-main__item-input">
+                                            <input type="text" placeholder="DD-MM-YYYY">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-2 m-0 c-0">
+                                    <div class="search-main__item">
+                                        <div class="search-main__item-name">CHECK OUT</div>
+                                        <div class="search-main__item-input">
+                                            <input type="text">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-1 m-0 c-0">
+                                    <div class="search-main__item">
+                                        <div class="search-main__item-name">ADULTS</div>
+                                        <div class="search-main__item-input">
+                                            <select name="" id="">
+                                                <option value="">01</option>
+                                                <option value="">02</option>
+                                                <option value="">03</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-1 m-0 c-0">
+                                    <div class="search-main__item">
+                                        <div class="search-main__item-name">CHILDREN</div>
+                                        <div class="search-main__item-input">
+                                            <select name="" id="">
+                                                <option value="">0</option>
+                                                <option value="">01</option>
+                                                <option value="">02</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-2 m-0 c-0">
+                                    <div class="search-main__item">
+                                        <div class="search-main__item-btn">
+                                            Search
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tour -->
+        <div class="tour">
+            <div class="grid wide tour-wrap">
+                <h2 class="tour-header">We have the best tours</h2>
+                <h4 class="tour-content">
+                    <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.</div>
+                    <div>Suspendisse potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec.</div>
+                </h4>
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-4 m-12 c-12">
+                            <div class="tour-list">
+                                <div class="tour-list__overlay"></div>
+                                <div class="tour-list__background" style="background-image: url(/assets/img/tour1.webp)"></div>
+                                <div class="tour-list__content">
+                                    <div class="tour-list__content-day">May 15th - July 01st</div>
+                                    <div class="tour-list__content-center">
+                                        <h3>Mauritius</h3>
+                                        <div class="tour-list__content-price">From $1450</div>
+                                        <div class="tour-list__content-rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="tour-list__content-btn">
+                                        <div class="tour-list__btn--big"></div>
+                                        <a href="#" class="tour-list__btn-name">
+                                            see more
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-12 c-12">
+                            <div class="tour-list">
+                                <div class="tour-list__overlay"></div>
+                                <div class="tour-list__background" style="background-image: url(/assets/img/tour2.webp)"></div>
+                                <div class="tour-list__content">
+                                    <div class="tour-list__content-day">June 19th - July 01st</div>
+                                    <div class="tour-list__content-center">
+                                        <h3>Greece</h3>
+                                        <div class="tour-list__content-price">From $5650</div>
+                                        <div class="tour-list__content-rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="tour-list__content-btn">
+                                        <div class="tour-list__btn--big"></div>
+                                        <a href="#" class="tour-list__btn-name">
+                                            see more
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-12 c-12">
+                            <div class="tour-list">
+                                <div class="tour-list__overlay"></div>
+                                <div class="tour-list__background" style="background-image: url('/assets/img/tour3.webp')"></div>
+                                <div class="tour-list__content">
+                                    <div class="tour-list__content-day">June 29th - July 01st</div>
+                                    <div class="tour-list__content-center">
+                                        <h3>Scotland</h3>
+                                        <div class="tour-list__content-price">From $3050</div>
+                                        <div class="tour-list__content-rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="tour-list__content-btn">
+                                        <div class="tour-list__btn--big"></div>
+                                        <a href="#" class="tour-list__btn-name">
+                                            see more
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>               
+            </div>
+        </div>
+
+        <!-- Package -->
+        <div class="package">
+            <div class="grid wide">
+                <div class="package-background" style="background-image: url('/assets/img/package.webp')"></div>
+                <div class="package-content">
+                    <div class="grid wide">
+                        <div class="package-centent__wrap">
+                            <div class="package-content__heading">MALDIVES DELUXE PACKAGE</div>
+                            <div class="package-content__rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="package-content__content">
+                                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu,
+                                    <br>
+                                    vitae cursus mi hendrerit nec. Proin bibendum, augue faucibus tincidunt ultrices, tortor augue gravida lectus, et efficitur enim justo vel ligula.
+                                </span>
+                            </div>
+                            <div class="package-content__btn">
+                                <div class="package-content__btn-big"></div>
+                                <a href="#" class="package-content__btn-name">
+                                    book now
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Offers -->
+        <div class="offers">
+            <div class="grid wide">
+                <div class="offers-heading">THE BEST OFFERS WITH ROOMS</div>
+                <div class="row">
+                    <div class="col l-6 m-12 c-12 offers-space">
+                        <div class="offers-container">
+                            <div class="row">
+                                <div class="col l-6 m-6 c-6">
+                                    <div class="offers-container__wrap-item">
+                                        <div class="offers-container__item-img" style="background-image: url('/assets/img/offer1.webp')" ></div>
+                                        <div class="offers-container__item-name">
+                                            <a href="#">grand castle</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-6 m-6 c-6">
+                                    <div class="offers-container__wrap-item">
+                                        <div class="offers-container__item-price"> $70
+                                            <span>per night</span>
+                                        </div>
+                                        <div class="offers-container__item-rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p>Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.</p>
+                                        <div class="offers-container__item-icon">
+                                            <img src="/assets/img/icon1.webp" alt="">
+                                            <img src="/assets/img/icon2.webp" alt="">
+                                            <img src="/assets/img/icon3.webp" alt="">
+                                            <img src="/assets/img/icon4.webp" alt="">
+                                        </div>
+                                        <a href="#">Read more</a>                                     
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-6 m-12 c-12 offers-space">
+                        <div class="offers-container">
+                            <div class="row">
+                                <div class="col l-6 m-6 c-6">
+                                    <div class="offers-container__wrap-item">
+                                        <div class="offers-container__item-img" style="background-image: url('/assets/img/offer2.webp')" ></div>
+                                        <div class="offers-container__item-name">
+                                            <a href="#">turkey hills</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-6 m-6 c-6">
+                                    <div class="offers-container__wrap-item">
+                                        <div class="offers-container__item-price"> $50
+                                            <span>per night</span>
+                                        </div>
+                                        <div class="offers-container__item-rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p>Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.</p>
+                                        <div class="offers-container__item-icon">
+                                            <img src="/assets/img/icon1.webp" alt="">                            
+                                            <img src="/assets/img/icon3.webp" alt="">
+                                            <img src="/assets/img/icon4.webp" alt="">
+                                        </div>
+                                        <a href="#">Read more</a>                                     
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-6 m-12 c-12 offers-space">
+                        <div class="offers-container">
+                            <div class="row">
+                                <div class="col l-6  m-6 c-6 ">
+                                    <div class="offers-container__wrap-item">
+                                        <div class="offers-container__item-img" style="background-image: url('/assets/img/offer3.webp')" ></div>
+                                        <div class="offers-container__item-name">
+                                            <a href="#">island dream</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-6  m-6 c-6">
+                                    <div class="offers-container__wrap-item">
+                                        <div class="offers-container__item-price"> $90
+                                            <span>per night</span>
+                                        </div>
+                                        <div class="offers-container__item-rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p>Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.</p>
+                                        <div class="offers-container__item-icon">
+                                            <img src="/assets/img/icon1.webp" alt="">
+                                            <img src="/assets/img/icon2.webp" alt="">
+                                            <img src="/assets/img/icon3.webp" alt="">
+                                        </div>
+                                        <a href="#">Read more</a>                                     
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                       
+                    </div>
+                    <div class="col l-6 m-12 c-12 offers-space">
+                        <div class="offers-container">
+                            <div class="row">
+                                <div class="col l-6  m-6 c-6">
+                                    <div class="offers-container__wrap-item">
+                                        <div class="offers-container__item-img" style="background-image: url('/assets/img/offer4.webp')" ></div>
+                                        <div class="offers-container__item-name">
+                                            <a href="#">travel light</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-6  m-6 c-6">
+                                    <div class="offers-container__wrap-item">
+                                        <div class="offers-container__item-price"> $100
+                                            <span>per night</span>
+                                        </div>
+                                        <div class="offers-container__item-rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p>Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.</p>
+                                        <div class="offers-container__item-icon">
+                                            <img src="/assets/img/icon1.webp" alt="">
+                                            <img src="/assets/img/icon2.webp" alt="">
+                                            <img src="/assets/img/icon3.webp" alt="">
+                                            <img src="/assets/img/icon4.webp" alt="">
+                                        </div>
+                                        <a href="#">Read more</a>                                     
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                   
+                    </div>                   
+                </div>
+                
+
+            </div>
+        </div>
+
+        <!-- Rate -->
+        <div class="rate">
+            <div class="grid wide">
+                <div class="rate-body">
+                    <div class="rate-heading">WHAT OUR CLIENTS SAY ABOUT US</div>
+                    <div class="rate-item">
+                        <div class="row">
+                            <div class="col l-4 m-6 c-12 rate-item__height-mobile">
+                                <div class="rate-wrap">
+                                    <div class="rate-icon">
+                                        <img src="/assets/img/balo.webp" alt="">
+                                    </div>
+                                    <img src="/assets/img/rate1.webp" alt="" class="rate-img">
+                                    <div class="rate-container">
+                                        <div class="rate-container__info">
+                                            <h3>CARLA SMITH</h3>
+                                            <span>May 24, 2020</span>
+                                        </div>
+                                        <div class="rate-container__content">
+                                            <h3>" Best holliday ever "</h3>
+                                            <span>Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-4 m-6 c-12 rate-item__height-mobile">
+                                <div class="rate-wrap">
+                                    <div class="rate-icon">
+                                        <img src="/assets/img/trip.webp" alt="">
+                                    </div>
+                                    <img src="/assets/img/rate2.webp" alt="" class="rate-img">
+                                    <div class="rate-container">
+                                        <div class="rate-container__info">
+                                            <h3>CARLA SMITH</h3>
+                                            <span>June 19, 2021</span>
+                                        </div>
+                                        <div class="rate-container__content">
+                                            <h3>" Best holliday ever "</h3>
+                                            <span>Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-4 m-0 c-12 ">
+                                <div class="rate-wrap">
+                                    <div class="rate-icon">
+                                        <img src="/assets/img/thuyee.webp" alt="">
+                                    </div>
+                                    <img src="/assets/img/rate3.webp" alt="" class="rate-img">
+                                    <div class="rate-container">
+                                        <div class="rate-container__info">
+                                            <h3>CARLA SMITH</h3>
+                                            <span>July 01, 2021</span>
+                                        </div>
+                                        <div class="rate-container__content">
+                                            <h3>" Best holliday ever "</h3>
+                                            <span>Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+            <div class="rate-border"></div>
+        </div>
+
+        <!-- Trending -->
+        <div class="trending">
+            <div class="grid wide">
+                <div class="trending-wrap">
+                    <h2>TRENDING NOW</h2>
+                    <div class="trending-list">
+                        <div class="row">
+                            <div class="col l-3 m-4 c-6">
+                                <div class="trending-item">
+                                    <div class="row">
+                                        <div class="col l-6 m-6 c-12">
+                                            <div class="trending-item__img">
+                                                <img src="/assets/img/trending1.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col l-6 m-6 c-12">
+                                            <div class="trending-item__text">
+                                                <a href="#">GRAND HOTEL</a>
+                                                <h5>Form $182</h5>
+                                                <span>MADRID, SPAIN</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="trending-item">
+                                    <div class="row">
+                                        <div class="col l-6 m-6 c-12">
+                                            <div class="trending-item__img">
+                                                <img src="/assets/img/trending2.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col l-6 m-6 c-12">
+                                            <div class="trending-item__text">
+                                                <a href="#">MARS HOTEL</a>
+                                                <h5>Form $272</h5>
+                                                <span>MADRID, SPAIN</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="trending-item">
+                                    <div class="row">
+                                        <div class="col l-6 m-6 c-12">
+                                            <div class="trending-item__img">
+                                                <img src="/assets/img/trending3.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col l-6 m-6 c-12">
+                                            <div class="trending-item__text">
+                                                <a href="#">QUEEN HOTEL</a>
+                                                <h5>Form $89</h5>
+                                                <span>MADRID, SPAIN</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="trending-item">
+                                    <div class="row">
+                                        <div class="col l-6 m-6 c-12">
+                                            <div class="trending-item__img">
+                                                <img src="/assets/img/trending4.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col l-6 m-6 c-12">
+                                            <div class="trending-item__text">
+                                                <a href="#">FAR HOTEL</a>
+                                                <h5>Form $344</h5>
+                                                <span>MADRID, SPAIN</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="trending-item">
+                                    <div class="row">
+                                        <div class="col l-6 m-6 c-12">
+                                            <div class="trending-item__img">
+                                                <img src="/assets/img/trending5.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col l-6 m-6 c-12">
+                                            <div class="trending-item__text">
+                                                <a href="#">KING HOTEL</a>
+                                                <h5>Form $582</h5>
+                                                <span>MADRID, SPAIN</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="trending-item">
+                                    <div class="row">
+                                        <div class="col l-6 m-6 c-12">
+                                            <div class="trending-item__img">
+                                                <img src="/assets/img/trending6.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col l-6 m-6 c-12">
+                                            <div class="trending-item__text">
+                                                <a href="#">JACK HOTEL</a>
+                                                <h5>Form $78</h5>
+                                                <span>MADRID, SPAIN</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="trending-item">
+                                    <div class="row">
+                                        <div class="col l-6 m-6 c-12">
+                                            <div class="trending-item__img">
+                                                <img src="/assets/img/trending7.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col l-6 m-6 c-12">
+                                            <div class="trending-item__text">
+                                                <a href="#">GREEN HOTEL</a>
+                                                <h5>Form $622</h5>
+                                                <span>MADRID, SPAIN</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6 ">
+                                <div class="trending-item">
+                                    <div class="row">
+                                        <div class="col l-6 m-6 c-12">
+                                            <div class="trending-item__img">
+                                                <img src="/assets/img/trending8.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col l-6 m-6 c-12">
+                                            <div class="trending-item__text">
+                                                <a href="#">SEA HOTEL</a>
+                                                <h5>Form $1182</h5>
+                                                <span>MADRID, SPAIN</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Form -->
+        <div class="form">
+            <div class="form-background" style="background-image: url('/assets/img/form.webp')"></div>
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-5 c-0"></div>
+                    <div class="col l-7  c-12 form-mobile">
+                        <div class="form-container">
+                            <div class="form-container__title">GET IN TOUCH</div>
+                            <div class="form-container__form">
+                                <input type="text" class="form-container__form-name" placeholder="Name">
+                                <input type="email" class="form-container__form-email" placeholder="E-mail">
+                                <input type="text" class="form-container__form-subject" placeholder="Subject">
+                                <input type="text" class="form-container__form-message" placeholder="Message">
+                                <button class="form-container__form-btn">
+                                    SEND MESSAGE
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        
+        </div>
+
+        <!-- Footer -->
+        <div class="footer"></div>
+    </div>
+
+    <script src="../header.js"></script>
+    <script src="../footer.js"></script>
+    <script src="../main.js"></script>
+
+
+    
+</body>
+</html>

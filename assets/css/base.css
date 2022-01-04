@@ -1,0 +1,79 @@
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size:62.5%;
+    line-height:1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --purple-color: rgb(111, 66, 193);
+    --yellow-color: #fa9e1b;
+    --main-color: linear-gradient(to right ,#fa9e1b,#8d4fff);
+}
+
+.app{
+    overflow-x: hidden;
+}
+
+.header-menu.open {
+    display: block;
+}
+
+.header-main__search-input.open{
+    display: flex;
+}
+
+
+@keyframes fadeIn {
+    from { 
+        opacity:0;
+        transform: scaleX(0.5);
+    }
+    to { 
+        opacity:1;
+        transform: scaleX(1);
+    }
+    
+}
+
+@keyframes transalate {
+    from { 
+        transform: translateY(50px);
+        opacity:0;
+    }
+    to { 
+        transform: translateY(0);
+        opacity:1;
+    }
+    
+}
+
+@keyframes menu {
+    from { 
+        opacity:0.3;
+        transform: translateX(320px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+}
+
+@keyframes height {
+    from {
+        height: 160px;
+
+    }
+    to {
+        height: 120px;
+    }
+}
+
+
